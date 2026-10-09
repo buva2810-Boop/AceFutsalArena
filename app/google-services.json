@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302950656583",
+    "project_id": "acearena-a6f25",
+    "storage_bucket": "acearena-a6f25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302950656583:android:babf79f4ad4b0996ec1f62",
+        "android_client_info": {
+          "package_name": "com.example.acefutsalarena"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0YbavUD4si8fqXWsAHvs7KfGuEyBD8Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

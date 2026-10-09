@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AceFutsalArena"
+        tools:targetApi="31">
+        <activity
+            android:name=".courtAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".court"
+            android:exported="false" />
+        <activity
+            android:name=".AdminBookingAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Booking"
+            android:exported="false" />
+        <activity
+            android:name=".report"
+            android:exported="false" />
+        <activity
+            android:name=".manageBookings"
+            android:exported="false" />
+        <activity
+            android:name=".manageCourts"
+            android:exported="false" />
+        <activity
+            android:name=".adminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".bookingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".bookingSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
+        <activity
+            android:name=".CourtDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" /> <!-- Authentication -->
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" /> <!-- Splash Screen / Launcher -->
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
